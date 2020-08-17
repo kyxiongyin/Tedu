@@ -8,6 +8,6 @@ for each_line in f:
         else:
             person[role].append(line_spoken)
 f.close()
+# 传入数据
 for name in person:
-    with open(name+'.txt','w') as fw:
-        fw.writelines(person[name])
+    pass
