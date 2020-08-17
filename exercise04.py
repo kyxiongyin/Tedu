@@ -7,7 +7,3 @@ for each_line in f:
             person[role] = [line_spoken]
         else:
             person[role].append(line_spoken)
-f.close()
-for name in person:
-    with open(name+'.txt','w') as fw:
-        fw.writelines(person[name])
