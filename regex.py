@@ -17,6 +17,3 @@ print(l)
 l = re.split("[^\w]",s)
 print(l)
 
-# 使用指定的字符串替换匹配到的内容
-# s = re.sub(r':','--',s,1)
-s = re.subn(r':','--',s)
