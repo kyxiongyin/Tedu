@@ -2,7 +2,9 @@
 regex2.py
 match 对象属性演示
 """
-
+'''
+    第一种方案
+'''
 import re
 
 pattern = r"(ab)cd(?P<pig>ef)"
