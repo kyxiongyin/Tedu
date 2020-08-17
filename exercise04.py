@@ -7,3 +7,8 @@ for each_line in f:
             person[role] = [line_spoken]
         else:
             person[role].append(line_spoken)
+
+f.close()
+# 传入数据
+for name in person:
+    pass
